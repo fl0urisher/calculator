@@ -1,11 +1,11 @@
-# _{CALCULATOR}_
+# CALCULATOR
 
-#### _{Calculator exercise}_,  {8th June, 2020}_
+#### Calculator exercise,  8th June, 2020
 
-#### By _**{George Udonte}**_
+#### By **George Udonte**
 
 ##Description
-_{This is a basic calculator application}_
+This is a basic calculator application.
 
 ##Technologies Used
-_{html, css and javascipt are the technologies used}_
+html, css and javascipt are the technologies used.
