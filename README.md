@@ -4,8 +4,8 @@
 
 #### By **George Udonte**
 
-##Description
+## Description
 This is a basic calculator application.
 
-##Technologies Used
+## Technologies Used
 html, css and javascipt are the technologies used.
