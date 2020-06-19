@@ -1,22 +1,29 @@
-function add(num1, num2){
-    return num1 + num2;
-}
+//business logic
 
-function subtract(num1, num2){
-    return num1 - num2;
-}
+const add = function(number1, number2){
+  return number1 + number2;
+};
 
-function multiply(num1, num2){
-    return num1 * num2;
-}
+const subtract = function(number1, number2){
+  return number1 - number2;
+};
 
-function divide(num1, num2){
-    return num1 / num2;
-}
+const divide = function(number1, number2){
+  return number1 / number2;
+};
 
+const multiply = function(number1, number2){
+  return number1 * number2;
+};
 
-const num1 = parseInt(prompt("Please enter the first number_"));
-const num2 = parseInt(prompt("Please enter the second number_"));
-const answer = divide(num1, num2);
-
-alert(answer);
+//user interface logic
+$(document).ready(function(){
+  $("form#add").submit(function(event){
+    event.preventDefault();
+    const number1 = parseInt($("input#add1").val());
+    const number2 = parseInt($("input#add2").val());
+    const result = add(number1, number2);
+    $("#output").text(result);
+    
+  });
+});
